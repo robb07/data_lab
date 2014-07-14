@@ -47,17 +47,17 @@ data_loc = 'D:/HTML_dump'
 
 
 site_to_parse_rules = dict([
-#     ('npr',     [dict([('tag_names','a')]),
-#                  dict([('tag_names','h1'),('attr_name','class'),('attr_vals',['title'])])]),
-#     ('cnn',     [dict([('tag_names','div'),('attr_name','data-vr-zone'),('attr_vals',['t1','THE LATEST','OPINION','MORE TOP STORIES','IN CASE YOU MISSED IT','C1.5Top','C2'])]),
-#                  dict([('tag_names','a')])]),
-#     ('bbcnews', [dict([('tag_names','a'),('attr_name','class'),('attr_vals',['story'])])]),
-#     ('abcnews', [dict([('tag_names','div'),('attr_name','class'),('attr_vals',['midcontainer'])]),
-#                  dict([('tag_names','a')])]),
-#     ('wired',   [dict([('tag_names','div'),('attr_name','class'),('attr_vals',['headline','feed-content'])]),
-#                  dict([('tag_names','a')])]),
-#     ('cbsnews', [dict([('tag_names',['h3','h4']),('attr_name','class'),('attr_vals',['title'])])]),
-      ('reddit', [dict([('tag_names','a'),('attr_name','class'),('attr_vals',['title'])])]),
+    ('npr',     [dict([('tag_names','a')]),
+                 dict([('tag_names','h1'),('attr_name','class'),('attr_vals',['title'])])]),
+    ('cnn',     [dict([('tag_names','div'),('attr_name','data-vr-zone'),('attr_vals',['t1','THE LATEST','OPINION','MORE TOP STORIES','IN CASE YOU MISSED IT','C1.5Top','C2'])]),
+                 dict([('tag_names','a')])]),
+    ('bbcnews', [dict([('tag_names','a'),('attr_name','class'),('attr_vals',['story'])])]),
+    ('abcnews', [dict([('tag_names','div'),('attr_name','class'),('attr_vals',['midcontainer'])]),
+                 dict([('tag_names','a')])]),
+    ('wired',   [dict([('tag_names','div'),('attr_name','class'),('attr_vals',['headline','feed-content'])]),
+                 dict([('tag_names','a')])]),
+    ('cbsnews', [dict([('tag_names',['h3','h4']),('attr_name','class'),('attr_vals',['title'])])]),
+    ('reddit',  [dict([('tag_names','a'),('attr_name','class'),('attr_vals',['title'])])]),
     ])
 
 bad_unicode = [u'\u200b',u'\xe1',u'\u2019',u'\u2018',
